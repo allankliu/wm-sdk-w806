@@ -145,6 +145,8 @@ make monitor
 * Alternative download links
    * https://pan.baidu.com/s/1Mp-oHNM3k4Hb8vEybv8pZg code:vw42
    * http://82.157.145.101/download/toolkits/winnermicro/w806/
+* Old version of csky-elfabiv2-tools-x86_64-minilibc-20200502.tar.gz if you encounter the building error with 20210423 tools.
+   * https://gitee.com/swxu/csky-elfabiv2-tools
 
 ## Installation
 
@@ -238,6 +240,8 @@ In /include/arch/xt804/csi_config.h, please comment out `#define CONFIG_KERNEL_N
 If the compilation doesn't reflect your code changes, please clean the workspace with`make clean` or `make distclean`
 4. Auto-reset failed  
 In some cases the auto-reset may fail, you need to press the Reset key to reset the board manually.
+5. Build failed
+The csky-elfabiv2-tools-mingw-minilibc-20210423 may report error when building libc source code, you can use csky-elfabiv2-tools-mingw-minilibc-20200502 from gitee.
 
 # License
 
