@@ -31,7 +31,9 @@ wm-sdk-w806
    * https://pan.baidu.com/s/1Mp-oHNM3k4Hb8vEybv8pZg code:vw42
    * http://82.157.145.101/download/toolkits/winnermicro/w806/
    * https://aur.archlinux.org/cgit/aur.git/tree/PKGBUILD?h=csky-toolchain-bin (links in `source`)
-
+* Old version of csky-elfabiv2-tools-x86_64-minilibc-20200502.tar.gz if you encounter the building error with 20210423 tools.
+   * https://gitee.com/swxu/csky-elfabiv2-tools
+   
 ## Installation
 
 Extract the toolchains to proper folder -- be careful that the tar ball use `./` as top level path, move it to a seperate folder or specify a target folder for the uncompressing.
@@ -145,8 +147,7 @@ make monitor
 * Alternative download links
    * https://pan.baidu.com/s/1Mp-oHNM3k4Hb8vEybv8pZg code:vw42
    * http://82.157.145.101/download/toolkits/winnermicro/w806/
-* Old version of csky-elfabiv2-tools-x86_64-minilibc-20200502.tar.gz if you encounter the building error with 20210423 tools.
-   * https://gitee.com/swxu/csky-elfabiv2-tools
+
 
 ## Installation
 
